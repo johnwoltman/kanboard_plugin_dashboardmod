@@ -1,5 +1,7 @@
 <?php
 
 return [
-    'End Date' => 'Due Date',
+    'End date' => 'Due date',
+    'End date:' => 'Due date:',
+    'End date: ' => 'Due date: ',
     ];
