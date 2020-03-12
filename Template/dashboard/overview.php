@@ -29,7 +29,7 @@
                         <?= $this->url->link($this->text->e($project['name']), 'BoardViewController', 'show', array('project_id' => $project['id'])) ?>
                         <?php if ($project['end_date']): ?>
                             <span style="<?= $project['end_date'] <= $today ? 'color: red;' : '' ?>">
-                            (Due <?= $project['end_date']  ?>)
+                            (<?= t('Due').' '.$project['end_date'] ?>)
                             </span>
                         <?php endif ?>
                     </span>
